@@ -7,11 +7,26 @@ app.use(bodyParser.json());
 // DATA JADWAL
 const jadwal = {
   senin: [
-    { waktu: "07:00", mapel: "Matematika" },
-    { waktu: "09:00", mapel: "Bahasa Indonesia" }
+    { waktu: "08:10", mapel: "Agama" },
+    { waktu: "08:50", mapel: "agama" },
+    { waktu: "09:30", mapel: "agama" },
+    { waktu: "10:40", mapel: "dasar dasar akuntansi" },
+    { waktu: "11:20", mapel: "dasar dasar akuntansi" }
+    { waktu: "12:00", mapel: "dasar dasar akuntansi" }
+    { waktu: "12:40", mapel: "dasar dasar akuntansi" }
+    { waktu: "13:40", mapel: "dasar dasar akuntansi" }
+    { waktu: "14:20", mapel: "dasar dasar akuntansi" }
+    { waktu: "15:00", mapel: "dasar dasar akuntansi" }
+    
   ],
   selasa: [
-    { waktu: "07:00", mapel: "IPA" }
+    { waktu: "07:30", mapel: "pjok" }
+    { waktu: "08:10", mapel: "pjok" }
+    { waktu: "08:50", mapel: "pjok" } 
+    { waktu: "09:30", mapel: "matematika" }
+    { waktu: "10:40", mapel: "matematika" }
+    { waktu: "11:20", mapel: "ipas" }
+    { waktu: "12:00", mapel: "ipas" }
   ],
   rabu: [
     { waktu: "10:00", mapel: "IPS" }
